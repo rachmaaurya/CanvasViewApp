@@ -22,12 +22,12 @@ public class MyCanvasView extends View {
     private Bitmap mBitmap;
     private Rect mFrame;
 
-    MyCanvasView(Context context) {
-        this(context, null);
-    }
+    //MyCanvasView(Context context) {
+    //    this(context, null);
+    //}
 
     public MyCanvasView(Context context, AttributeSet attributeSet) {
-        super(context);
+        super(context, attributeSet);
         mBackgroundColor = ResourcesCompat.getColor(getResources(),
                 R.color.teal_700, null);
         mDrawColor = ResourcesCompat.getColor(getResources(),

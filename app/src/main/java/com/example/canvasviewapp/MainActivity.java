@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     .build();
 
             new AlertDialog.Builder(this)
-                    .setTitle("Stroke Width")
+                    .setTitle("Pick Stroke Width")
                     .setView(numberPicker)
                     .setPositiveButton(getString(android.R.string.ok), (dialogInterface, which) -> {
                         mSelectedWidth = numberPicker.getValue();
